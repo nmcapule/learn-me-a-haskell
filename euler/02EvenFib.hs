@@ -1,8 +1,8 @@
 -- Things I encountered:
--- 1. Haskell does not memoize by default
+-- Update #1. Haskell does not memoize by default
 --    I searched a little bit and it looks like 
 --    I would need to implement my own Memoization routine
--- 2. It would be nice if I could reuze computed values inside
+-- Update #2. It would be nice if I could reuze computed values inside
 --    a function, ala:
 --    fib x = sum(take 2 c):c | c <- fib(x-1)
 --
